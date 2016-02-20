@@ -9,7 +9,7 @@ Parameters:
 
 
 
-##Example:
+##Examples:
 
 Checks if reddit's main page has changed compared to the previous state 10 seconds ago. If something changed pop-up will appear:
 
