@@ -1,9 +1,10 @@
 
+Parameters:
 
-'-l', '--link', help="URL to your web page", required=True
-'-t', '--time', type=int, help="Time interval between checks (seconds)", default=60
-'-d', '--id', help="id of interesing web part. Entire website by default"
-'-v', '--verbose', type=bool, help="output stuff", choices=[False,True], default=False
+'-l', '--link', help="URL to your web page", required=True </br>
+'-t', '--time', type=int, help="Time interval between checks (seconds)", default=60 </br>
+'-d', '--id', help="id of interesing web part. Entire website by default: last_visit.txt" </br>
+'-v', '--verbose', type=bool, help="output stuff", choices=[False,True], default=False </br>
 '-f', '--file', help="name of file. Default: last_visit.txt"
 
 
