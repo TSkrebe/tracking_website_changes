@@ -3,7 +3,7 @@ Parameters:
 
 '-l', '--link', help="URL to your web page", required=True </br>
 '-t', '--time', type=int, help="Time interval between checks (seconds)", default=60 </br>
-'-d', '--id', help="id of interesing web part. Entire website by default: last_visit.txt" </br>
+'-d', '--id', help="id of interesing web part. By default checks entire website" </br>
 '-v', '--verbose', type=bool, help="output stuff", choices=[False,True], default=False </br>
 '-f', '--file', help="name of file. Default: last_visit.txt"
 
