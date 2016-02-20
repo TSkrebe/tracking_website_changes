@@ -8,7 +8,6 @@ Parameters:
 '-f', '--file', help="name of file. Default: last_visit.txt"
 
 
-
 ##Examples:
 
 Checks if reddit's main page has changed compared to the previous state 10 seconds ago. If something changed pop-up will appear:
@@ -22,4 +21,4 @@ Same thing with verbose turned on:
 
 Checks if id element called "siteTable" has changed compared to the state 5 seconds ago:
 
-    ./auto_tracking.py -l www.reddit.com -d siteTable -t 10
+    ./auto_tracking.py -l www.reddit.com -d siteTable -t 5
