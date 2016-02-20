@@ -9,7 +9,8 @@ Parameters:
 
 
 
-Example:
+##Example:
+
 Checks if reddit's main page has changed compared to the previous state 10 seconds ago. If something changed pop-up will appear:
 
     ./auto_tracking.py -l www.reddit.com -t 10
